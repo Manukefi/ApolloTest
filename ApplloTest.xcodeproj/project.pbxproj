@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE3ACCF60BF908A01736373 /* Pods_ApplloTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F464B19E1A9C4F68C4D6D8B /* Pods_ApplloTestUITests.framework */; };
+		32595131CD0D4217FC831456 /* Pods_ApplloTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043036C7108C425BAC686942 /* Pods_ApplloTest.framework */; };
 		D71EEE6A229FB50D00CA5FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE69229FB50D00CA5FCE /* AppDelegate.swift */; };
 		D71EEE6C229FB50D00CA5FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE6B229FB50D00CA5FCE /* ViewController.swift */; };
 		D71EEE6F229FB50D00CA5FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71EEE6D229FB50D00CA5FCE /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		D71EEE77229FB50E00CA5FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71EEE75229FB50E00CA5FCE /* LaunchScreen.storyboard */; };
 		D71EEE82229FB50E00CA5FCE /* ApplloTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE81229FB50E00CA5FCE /* ApplloTestTests.swift */; };
 		D71EEE8D229FB50E00CA5FCE /* ApplloTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE8C229FB50E00CA5FCE /* ApplloTestUITests.swift */; };
+		FA69B8BD093AB8FD76F3828B /* Pods_ApplloTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B145E64C2C439FAD3EE036 /* Pods_ApplloTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043036C7108C425BAC686942 /* Pods_ApplloTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplloTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		197E8A99FA5CC1F05A246D7D /* Pods-ApplloTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTest.debug.xcconfig"; path = "Target Support Files/Pods-ApplloTest/Pods-ApplloTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2C4CC0FE30228DCBBED85A61 /* Pods-ApplloTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTest.release.xcconfig"; path = "Target Support Files/Pods-ApplloTest/Pods-ApplloTest.release.xcconfig"; sourceTree = "<group>"; };
+		470B976CF04D31C2F231CF63 /* Pods-ApplloTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ApplloTestUITests/Pods-ApplloTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F464B19E1A9C4F68C4D6D8B /* Pods_ApplloTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplloTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928B6F3069600C2353E9DBFB /* Pods-ApplloTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ApplloTestTests/Pods-ApplloTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D08358BF52E915D8DD8F82D6 /* Pods-ApplloTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ApplloTestUITests/Pods-ApplloTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D71EEE66229FB50D00CA5FCE /* ApplloTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplloTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71EEE69229FB50D00CA5FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D71EEE6B229FB50D00CA5FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		D71EEE88229FB50E00CA5FCE /* ApplloTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplloTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71EEE8C229FB50E00CA5FCE /* ApplloTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplloTestUITests.swift; sourceTree = "<group>"; };
 		D71EEE8E229FB50E00CA5FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B145E64C2C439FAD3EE036 /* Pods_ApplloTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplloTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA47E51F36C72C9F6A665E /* Pods-ApplloTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTestTests.release.xcconfig"; path = "Target Support Files/Pods-ApplloTestTests/Pods-ApplloTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32595131CD0D4217FC831456 /* Pods_ApplloTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA69B8BD093AB8FD76F3828B /* Pods_ApplloTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE3ACCF60BF908A01736373 /* Pods_ApplloTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AFA172D50B46AE38B43E896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043036C7108C425BAC686942 /* Pods_ApplloTest.framework */,
+				F0B145E64C2C439FAD3EE036 /* Pods_ApplloTestTests.framework */,
+				7F464B19E1A9C4F68C4D6D8B /* Pods_ApplloTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2165D9ECB671B25FA26BFF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				197E8A99FA5CC1F05A246D7D /* Pods-ApplloTest.debug.xcconfig */,
+				2C4CC0FE30228DCBBED85A61 /* Pods-ApplloTest.release.xcconfig */,
+				928B6F3069600C2353E9DBFB /* Pods-ApplloTestTests.debug.xcconfig */,
+				F3FA47E51F36C72C9F6A665E /* Pods-ApplloTestTests.release.xcconfig */,
+				470B976CF04D31C2F231CF63 /* Pods-ApplloTestUITests.debug.xcconfig */,
+				D08358BF52E915D8DD8F82D6 /* Pods-ApplloTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D71EEE5D229FB50D00CA5FCE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				D71EEE80229FB50E00CA5FCE /* ApplloTestTests */,
 				D71EEE8B229FB50E00CA5FCE /* ApplloTestUITests */,
 				D71EEE67229FB50D00CA5FCE /* Products */,
+				B2165D9ECB671B25FA26BFF3 /* Pods */,
+				8AFA172D50B46AE38B43E896 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71EEE91229FB50E00CA5FCE /* Build configuration list for PBXNativeTarget "ApplloTest" */;
 			buildPhases = (
+				58070F2385AE8B9AEAE7931A /* [CP] Check Pods Manifest.lock */,
+				D71EEE9A229FB73F00CA5FCE /* Generate Apollo GraphQL API */,
 				D71EEE62229FB50D00CA5FCE /* Sources */,
 				D71EEE63229FB50D00CA5FCE /* Frameworks */,
 				D71EEE64229FB50D00CA5FCE /* Resources */,
+				F9B9AF7593F63EE2A660DB04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71EEE94229FB50E00CA5FCE /* Build configuration list for PBXNativeTarget "ApplloTestTests" */;
 			buildPhases = (
+				61108F9D69E829E2F32098F4 /* [CP] Check Pods Manifest.lock */,
 				D71EEE79229FB50E00CA5FCE /* Sources */,
 				D71EEE7A229FB50E00CA5FCE /* Frameworks */,
 				D71EEE7B229FB50E00CA5FCE /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71EEE97229FB50E00CA5FCE /* Build configuration list for PBXNativeTarget "ApplloTestUITests" */;
 			buildPhases = (
+				6B8489B4070ABE021DCB6AD0 /* [CP] Check Pods Manifest.lock */,
 				D71EEE84229FB50E00CA5FCE /* Sources */,
 				D71EEE85229FB50E00CA5FCE /* Frameworks */,
 				D71EEE86229FB50E00CA5FCE /* Resources */,
@@ -253,6 +298,115 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58070F2385AE8B9AEAE7931A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplloTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61108F9D69E829E2F32098F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplloTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8489B4070ABE021DCB6AD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplloTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71EEE9A229FB73F00CA5FCE /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-cli.sh codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=schema.json API.swift\n";
+		};
+		F9B9AF7593F63EE2A660DB04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApplloTest/Pods-ApplloTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApplloTest/Pods-ApplloTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D71EEE62229FB50D00CA5FCE /* Sources */ = {
@@ -434,11 +588,13 @@
 		};
 		D71EEE92229FB50E00CA5FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197E8A99FA5CC1F05A246D7D /* Pods-ApplloTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ALJJ9Z7QY;
 				INFOPLIST_FILE = ApplloTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +608,13 @@
 		};
 		D71EEE93229FB50E00CA5FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4CC0FE30228DCBBED85A61 /* Pods-ApplloTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ALJJ9Z7QY;
 				INFOPLIST_FILE = ApplloTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +628,7 @@
 		};
 		D71EEE95229FB50E00CA5FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928B6F3069600C2353E9DBFB /* Pods-ApplloTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +650,7 @@
 		};
 		D71EEE96229FB50E00CA5FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FA47E51F36C72C9F6A665E /* Pods-ApplloTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		D71EEE98229FB50E00CA5FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470B976CF04D31C2F231CF63 /* Pods-ApplloTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +693,7 @@
 		};
 		D71EEE99229FB50E00CA5FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08358BF52E915D8DD8F82D6 /* Pods-ApplloTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
