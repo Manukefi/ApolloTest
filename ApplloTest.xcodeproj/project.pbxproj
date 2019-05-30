@@ -17,6 +17,8 @@
 		D71EEE77229FB50E00CA5FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71EEE75229FB50E00CA5FCE /* LaunchScreen.storyboard */; };
 		D71EEE82229FB50E00CA5FCE /* ApplloTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE81229FB50E00CA5FCE /* ApplloTestTests.swift */; };
 		D71EEE8D229FB50E00CA5FCE /* ApplloTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE8C229FB50E00CA5FCE /* ApplloTestUITests.swift */; };
+		D71EEE9E229FE3C600CA5FCE /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = D71EEE9D229FE3C600CA5FCE /* schema.json */; };
+		D71EEEA0229FE68B00CA5FCE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EEE9F229FE68B00CA5FCE /* API.swift */; };
 		FA69B8BD093AB8FD76F3828B /* Pods_ApplloTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B145E64C2C439FAD3EE036 /* Pods_ApplloTestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		D71EEE88229FB50E00CA5FCE /* ApplloTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplloTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71EEE8C229FB50E00CA5FCE /* ApplloTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplloTestUITests.swift; sourceTree = "<group>"; };
 		D71EEE8E229FB50E00CA5FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71EEE9D229FE3C600CA5FCE /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = SOURCE_ROOT; };
+		D71EEE9F229FE68B00CA5FCE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F0B145E64C2C439FAD3EE036 /* Pods_ApplloTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplloTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FA47E51F36C72C9F6A665E /* Pods-ApplloTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplloTestTests.release.xcconfig"; path = "Target Support Files/Pods-ApplloTestTests/Pods-ApplloTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +143,8 @@
 		D71EEE68229FB50D00CA5FCE /* ApplloTest */ = {
 			isa = PBXGroup;
 			children = (
+				D71EEE9D229FE3C600CA5FCE /* schema.json */,
+				D71EEE9F229FE68B00CA5FCE /* API.swift */,
 				D71EEE69229FB50D00CA5FCE /* AppDelegate.swift */,
 				D71EEE6B229FB50D00CA5FCE /* ViewController.swift */,
 				D71EEE6D229FB50D00CA5FCE /* Main.storyboard */,
@@ -277,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71EEE9E229FE3C600CA5FCE /* schema.json in Resources */,
 				D71EEE77229FB50E00CA5FCE /* LaunchScreen.storyboard in Resources */,
 				D71EEE74229FB50E00CA5FCE /* Assets.xcassets in Resources */,
 				D71EEE6F229FB50D00CA5FCE /* Main.storyboard in Resources */,
@@ -415,6 +422,7 @@
 			files = (
 				D71EEE6C229FB50D00CA5FCE /* ViewController.swift in Sources */,
 				D71EEE6A229FB50D00CA5FCE /* AppDelegate.swift in Sources */,
+				D71EEEA0229FE68B00CA5FCE /* API.swift in Sources */,
 				D71EEE72229FB50D00CA5FCE /* ApplloTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
